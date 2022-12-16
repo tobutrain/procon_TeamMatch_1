@@ -11,7 +11,7 @@ csvDirectory = "./testFile.csv"
 csv_header = ['ID','Word1','Word2','Word3']
 dictIDKeyword = {}
 num = 0
-#w2vModel = word2vec.KeyedVectors.load_word2vec_format(w2vPath,binary=False,encoding='utf-8')
+w2vModel = word2vec.KeyedVectors.load_word2vec_format(w2vPath,binary=False,encoding='utf-8')
 
 #仕様: cosWord 
 #IN: 単語1,単語2(文字列) OUT:cos類似度(0<=n<=1) (実数型)
